@@ -1,11 +1,11 @@
 --#NoSimplerr#
 
 function DrawGUI()
-	local Frame = vgui.create("Admin GUI")
-	Frame:SetTitle("Admin GUI")
-	Frame:SetSize(600, 400)
-	Frame:Center()
-	Frame:MakePopup()
+	local frame = vgui.Create("DFrame")
+	frame:SetTitle("Admin GUI")
+	frame:SetSize(600, 400)
+	frame:Center()
+	frame:MakePopup()
 end
 
 net.Receive("slooperadmin_opengui", DrawGUI)

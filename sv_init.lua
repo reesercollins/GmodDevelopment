@@ -1,6 +1,6 @@
 --#NoSimplerr#
 
-util.AddNetworkString("slooper_opengui")
+util.AddNetworkString("slooperadmin_opengui")
 
 function ChatCommand(ply, txt, pub)
 	ServerLog("nil\n")
